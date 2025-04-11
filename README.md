@@ -6,9 +6,6 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
 
 ## 📁 Estrutura do Projeto
 
-- `1-start_here/`  
-  Pasta inicial (vazia). Para testar o projeto, mantenha apenas o arquivo `CarSales.xlsx` dentro da pasta `data/` e remova as demais saídas geradas.
-
 - `data/`  
   Pasta onde ficam o arquivo de entrada `CarSales.xlsx` e os arquivos gerados (`pivot_table.xlsx`, `barchart.xlsx`, `test.xlsx`).
 
