@@ -28,55 +28,90 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
 
 ## 📦 Instalação
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Israel-Matheus/Relatorios-em-Excel-Automatizados
-   cd Relatorios-em-Excel-Automatizados
+### 1. Clone o repositório
 
-2. Crie e ative um ambiente virtual:
+```bash
+git clone https://github.com/Israel-Matheus/Relatorios-em-Excel-Automatizados
+cd Relatorios-em-Excel-Automatizados
+```
 
-`Windows:
+### 2. Crie e ative um ambiente virtual
 
+**Windows:**
+
+```bash
 python -m venv venv
-venv\Scripts\activate`
+venv\Scripts\activate
+```
 
-```Linux/macOS:
+**Linux/macOS:**
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
-3. Instale as dependências:
+### 3. Instale as dependências
 
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-🚀 Execução passo a passo
-1. Importar dados
+---
 
+## 🚀 Execução passo a passo
+
+### 1. Importar dados
+
+```bash
 python import_data.py
+```
 
-Leitura e visualização básica do arquivo CarSales.xlsx.
-2. Gerar tabela pivô
+Leitura e visualização básica do arquivo `CarSales.xlsx`.
 
+### 2. Gerar tabela pivô
+
+```bash
 python pivot_table.py
+```
 
-Cria o arquivo pivot_table.xlsx com a tabela dinâmica.
-3. Ler valores da planilha
+Cria o arquivo `pivot_table.xlsx` com a tabela dinâmica.
 
+### 3. Ler valores da planilha
+
+```bash
 python sheet_read.py
+```
 
 Lê e exibe valores específicos da planilha gerada.
-4. Adicionar gráfico
 
+### 4. Adicionar gráfico
+
+```bash
 python add_chart.py
+```
 
-Adiciona um gráfico de barras com os dados de vendas por fabricante e salva como barchart.xlsx.
-5. Aplicar fórmulas
+Adiciona um gráfico de barras com os dados de vendas por fabricante e salva como `barchart.xlsx`.
 
+### 5. Aplicar fórmulas
+
+```bash
 python forms.py
+```
 
-Aplica fórmulas de soma por fabricante na última linha da planilha. Salva como test.xlsx.
-6. Enviar e-mail com anexo
+Aplica fórmulas de soma por fabricante na última linha da planilha. Salva como `test.xlsx`.
 
+### 6. Enviar e-mail com anexo
+
+```bash
 python email.py
+```
 
-Envia o arquivo final test.xlsx por e-mail.
+Envia o arquivo final `test.xlsx` por e-mail.
+
+---
+
+## ✉️ Sobre o envio de e-mail
+
+- Preencha seu e-mail e o destinatário diretamente no script `email.py`.
+- Crie um arquivo chamado `senha` (sem extensão) contendo sua [senha de app do Gmail](https://support.google.com/accounts/answer/185833).
