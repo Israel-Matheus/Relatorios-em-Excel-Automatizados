@@ -1,0 +1,3 @@
+Caso queira testar o programa propriamente deixar somente o arquivo CarSales.xlsx e deletar o restante
+Olhar o requirements.txt (para instalar os pips) 
+Olhar o extensions.json (para vizualizar o arquivo Excel no próprio VsCode)

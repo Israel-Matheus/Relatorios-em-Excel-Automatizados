@@ -1,0 +1,3 @@
+venv/
+*.xlsx
+!data/CarSales.xlsx

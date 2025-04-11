@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+      "GrapeCity.gc-excelviewer"       // Consegue ver os arquivos Excel diretamente no VS Code.
+    ]
+  }
+  
