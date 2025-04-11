@@ -16,6 +16,9 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
   Lista das bibliotecas necessárias para rodar o projeto.
 
 ---
+### 📷 Capturas de tela
+(imgs/email.jpg)
+(imgs/anexo.jpg)
 
 ## ⚙️ Requisitos
 
