@@ -37,7 +37,7 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
 
 Windows:
 
-python -m venv venv
+```python -m venv venv
 venv\Scripts\activate
 
 Linux/macOS:
