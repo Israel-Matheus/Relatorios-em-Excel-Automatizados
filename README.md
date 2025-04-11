@@ -35,12 +35,12 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
 
 2. Crie e ative um ambiente virtual:
 
-Windows:
+`Windows:
 
-```python -m venv venv
+python -m venv venv
 venv\Scripts\activate
 
-Linux/macOS:
+```Linux/macOS:
 
 python3 -m venv venv
 source venv/bin/activate
