@@ -116,6 +116,7 @@ Envia o arquivo final `test.xlsx` por e-mail.
 - Preencha seu e-mail e o destinatário diretamente no script `email.py`.
 - Crie um arquivo chamado `senha` (sem extensão) contendo sua [senha de app do Gmail](https://support.google.com/accounts/answer/185833).
 
+---
 
 ### 📜 Licença
 
