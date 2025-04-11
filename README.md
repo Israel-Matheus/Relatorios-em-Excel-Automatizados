@@ -110,12 +110,14 @@ python email.py
 Envia o arquivo final `test.xlsx` por e-mail.
 
 ---
-### 📜 Licença
-
-Este projeto foi desenvolvido para fins educacionais e não possui fins comerciais.  
-Programa feito junto com a trilha Start em Python da OneBitCode.
 
 ## ✉️ Sobre o envio de e-mail
 
 - Preencha seu e-mail e o destinatário diretamente no script `email.py`.
 - Crie um arquivo chamado `senha` (sem extensão) contendo sua [senha de app do Gmail](https://support.google.com/accounts/answer/185833).
+
+
+### 📜 Licença
+
+Este projeto foi desenvolvido para fins educacionais e não possui fins comerciais.  
+Programa feito junto com a trilha Start em Python da OneBitCode.
