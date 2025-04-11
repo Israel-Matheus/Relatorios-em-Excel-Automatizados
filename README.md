@@ -17,8 +17,8 @@ Este projeto realiza uma sequência de operações em arquivos Excel com o objet
 
 ---
 ### 📷 Capturas de tela
-!(imgs/email.jpg)   
-!(imgs/anexo.jpg)
+![Tela de envio](imgs/email.jpg)   
+![Tela com anexo](imgs/anexo.jpg)
 
 ## ⚙️ Requisitos
 
